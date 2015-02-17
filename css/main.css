@@ -163,18 +163,18 @@ nav a:hover, nav a:focus
 }
 
 
-#squareRed 
+#squareBlk 
 {
   width: 100px;
   height: 100px;
   float:left;
   display: inline-block;
   margin: 10px 20px 0px 0;
-  background-color: #9D1C1F;
+  background-color: #111111;
   text-align: center;
 }
 
-#squareRed p
+#squareBlk p
 {
   padding-top: 40px;
   color: #fff;
@@ -187,7 +187,7 @@ nav a:hover, nav a:focus
   float:left;
   display: inline-block;
   margin: 10px 20px 0px 0;
-  background-color: #173B66;
+  background-color: #4CA0CB;
   text-align: center;
 }
 
@@ -204,7 +204,7 @@ nav a:hover, nav a:focus
   float:left;
   display: inline-block;
   margin: 10px 20px 0px 0;
-  background-color: #707070;
+  background-color: #5D5E5F;
   text-align: center;
 }
 
@@ -213,18 +213,18 @@ nav a:hover, nav a:focus
   color: #fff;
 }
 
-#squareBlack 
+#squareBlackGray 
 {
   width: 100px;
   height: 100px;
   float:left;
   display: inline-block;
   margin: 10px 20px 1px 0;
-  background-color: #282828;
+  background-color: #292B2E;
   text-align: center;
 }
 
-#squareBlack p{
+#squareBlackGray p{
   padding-top: 40px;
   color: #fff;
 }
