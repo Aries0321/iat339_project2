@@ -15,19 +15,19 @@ section
 
 h1
 {
-  font-family: "Open Sans";
+  font-family: "Montserrat";
   font-size: 2em;
 }
 
 h2
 {
-  font-family: "Open Sans";
+  font-family: "Montserrat";
   font-size: 28px;
 }
 
 h3
 {
-  font-family: "Open Sans";
+  font-family: "Montserrat";
   font-size: 20;
 }
 
@@ -55,15 +55,44 @@ section code
 .selectQty select 
 {
   width: 120px;
-  border: 1px solid #bbb;
+  border: #5D5E5E 2px solid;
   height: 30px;
+  background-color: #fff;
 }
 
-.imgBut
+.img1
+{
+  background-image: url(http://www.carsshow.net/wallpapers/2013/05/2011-BMW-3er-F30-modern-line-6-854x960.jpg);
+}
+
+.imgZoom
 {
   width:360px;
   height: 300px;
-  background: url(http://www.carsshow.net/wallpapers/2013/05/2011-BMW-3er-F30-modern-line-6-854x960.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+  transition: all 0.3s ease-in;;
+}
+
+.imgZoom:hover {
+  cursor: pointer;
+  background-size: 110% 110%;
+}
+
+/*.imgText:hover
+{
+  opacity: 0.5;
+  text-align: left;
+  color: #fff;
+  font-size: 15px;
+  padding: 100px;
+}*/
+
+.imgBut p
+{
+  padding-top: 100px;
 }
 
 .imgText{
@@ -73,40 +102,34 @@ section code
   opacity: 0;
 }
 
-.imgBut:hover .imgText{
-  opacity: 0.5;
-  text-align: left;
-  color: #fff;
-  font-size: 15px;
-  padding: 100px;
-}
-
-.imgBut p
-{
-  padding-top: 100px;
-}
-
-
 a.button 
 {
+  font-weight: 700;
   display: inline-block;
   padding: 0.5em 0.75em;
-  color: #FFF;
-  background-color: #173B66;
+  color: #5D5E5E;
+  background-color: none;
   text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border: solid #5D5E5E 2px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-size: 0.8em;
 }
 
 a
 {
   text-decoration: none;
-  color:#333;
+  color:#000;
 }
 
 a.button:hover, a.button:focus
 {
-  background-color: #000;
+  background-color: #5D5E5E;
+  color: #fff;
 }
 
 .main, .navDiv, .typeDiv, .butDiv
@@ -143,12 +166,15 @@ nav
   width: 10%;
   height: 100%;
   padding: 25px 15px 12px 80px;
-  line-height: 2.5em;
+  line-height: 2em;
+  font-weight: 600;
+  font-size: 0.9em;
+  letter-spacing: 1px;
 }
 
 nav a:hover, nav a:focus
 {
-  color: #aaa;
+  color: #5D5E5E;
 }
 
 #pads{
@@ -269,13 +295,13 @@ nav a:hover, nav a:focus
 #navSite a 
 {
   display: block;
-  width: 100px;
+  width: 200px;
   color: #173B66;
 }
 
 #navSite a:hover, #navSite a:focus
 {
-  color: #ff0000;
+  color: #173B66;
 }
 
 #navSite p
@@ -293,6 +319,10 @@ nav a:hover, nav a:focus
 {
   margin:10px 10px 10px 0;
   height: 30px;
-  background-color: #EEEEEE;
+  background-color: none;
+  border: solid #5D5E5E 2px;
+  border-radius: 2px;
+  font-color: #fff;
+  letter-spacing: 0.1em;
 }
 
