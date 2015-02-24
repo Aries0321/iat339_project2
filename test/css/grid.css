@@ -34,7 +34,6 @@ Grid Stylesheet
 	padding: 0;
 	margin: 0;
 	border: solid #000 1px;
-
 }
 
 @media (max-width: 60em) {
@@ -53,7 +52,7 @@ Grid Stylesheet
 }
 
 @media (max-width: 80em){
-	.col-6of8forum {
+	.col-6of8form {
 		width: 100%;
 	}
 }
@@ -62,4 +61,15 @@ Grid Stylesheet
 	content: "";
 	display: block;
 	clear: both;
+}
+
+
+.col-6of8Purchase{
+	width:75%;
+}
+
+@media (max-width: 60em) {
+	.col-6of8Purchase{
+		width: 90%;
+	}
 }
