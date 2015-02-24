@@ -63,6 +63,16 @@ Grid Stylesheet
 	clear: both;
 }
 
+.col-6of8 {
+	width: 75%;
+}
+
+@media (max-width: 60em) {
+	.col-6of8 {
+		width: 100%;
+	}
+}
+
 
 .col-6of8Purchase{
 	width:75%;
@@ -72,4 +82,15 @@ Grid Stylesheet
 	.col-6of8Purchase{
 		width: 90%;
 	}
+}
+
+.col-4of8 {
+	width: 50%;
+}
+
+@media (max-width: 0em) {
+	.col-4of8 {
+		width: 100%;
+	}
+
 }

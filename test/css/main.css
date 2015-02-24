@@ -42,8 +42,9 @@ h3
 .box {
 	left: 0;
 	display: inline-block;
-	width: 25%;
+	width: 100%;
 	height: 324px;
+	border: solid black 1px;
 	z-index: 1;
 }
 
@@ -120,6 +121,15 @@ h3
 		height: 0%;
 	}
 }
+
+.imageHolder {
+	left: 0;
+	width: 100%;
+	display: inline-block;
+	height: 648px;
+	border: solid black 2px;
+}
+
 
 a {
 	text-decoration: none;
