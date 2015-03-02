@@ -1,9 +1,23 @@
-body {
+/*** GENERAL ***/
+body 
+{
 	font-family: "Open Sans", sans-serif;
-	font-size: 80%; 
 	color: black;
 	padding: 0em;
 	margin: 0em;
+}
+
+a, a:visited 
+{
+	text-decoration: none;
+	color:#000;
+	-webkit-transition: color 0.2s ease-out 0;
+  	transition: color 0.2s ease-out 0;
+}
+
+a:hover 
+{
+	color: #5D5E5E;
 }
 
 h1
@@ -28,30 +42,133 @@ h3
   letter-spacing: 0.1em;
 }
 
+p
+{
+  font-size:13px;
+}
 
-.nav {
-	display: inline-block;
-	top:0;
+ul, ol, li 
+{
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+.nav li.about
+{
+	text-transform: none;
+	margin-bottom: 1em;
+	height:200px;
+}
+
+hr
+{
+	margin:2em 1em 2em 1.5em;
+	width:70%;
+}
+
+/*** END OF GENERAL ***/
+
+/*** NAV ***/
+.nav
+{
+	margin-top: 10em;
+	text-align: left;
+}
+
+.nav a
+{
+	display: block;
 	left:0;
 	/*height: 80em;*/
 	height:100%;
 	line-height: 2em;
 	letter-spacing: 1px;
+	font-weight: 600;
 }
 
-.box {
-	left: 0;
+.nav p
+{
+	letter-spacing: 1px;
+	line-height: 2em;
+	margin-left: 2em;
+}
+
+.navSocial{
+	margin-left: 0.5em;
+}
+
+.navSocial img
+{
+	margin-left:1em;
+	height:20px;
+	float: left;
+}
+
+@media (max-width: 60em){
+	.nav
+	{
+		margin-top: 0;
+	}
+	.navSocial
+	{
+		margin-bottom: 5em;
+	}
+}
+
+
+
+/*** END OF NAV ***/
+
+/*** BOX STUFF ***/
+.box1Img
+{
 	display: inline-block;
+	background-image: url(http://dummyimage.com/600x500/aaa/fff.png);
+	width: 100%;
+}
+
+.box 
+{
 	width: 100%;
 	height: 324px;
-	border: solid black 1px;
 	z-index: 1;
+	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	display: inline-block;
+  	transition: all 0.2s ease-in;
 }
 
+.box:hover 
+{
+  background-size: 103% 103%;
+  cursor: pointer;
+}
+
+.box1Line
+{
+	opacity: 1;
+	color: #000;
+	padding-top: 1px;
+	margin-top: 255px;
+	line-height: 0.8em;
+	transition: all 0.1s ease-in;
+}
+
+.bgBoxDescription
+{
+	opacity: 0.5;
+	background-color: #eee;
+	height: 70px;
+}
+
+/*** END OF BOX STUFF ***/
+
 .form{
-	position: fixed;
+	position: absolute;
 	top: 0em;
-	width: 25%;
+	width: 24.9%;
 	height: 3em;
 	border: solid #f6f6f6 2px;
 	background-color: white;
@@ -101,11 +218,7 @@ h3
 	border: solid #5D5E5E 2px;
 }
 
-@media (max-width: 60em) {
-	.productCart{
-		height: 0%;
-	}
-}
+
 
 .productCartText{
 	text-align: right;
@@ -123,39 +236,12 @@ h3
 }
 
 .imageHolder {
-	left: 0;
 	width: 100%;
 	display: inline-block;
-	height: 648px;
-	border: solid black 2px;
+	height: 652px;
+	border: solid black 1px;
 }
 
 
-a {
-	text-decoration: none;
-}
 
-a.button 
-{
-  font-weight: 700;
-  display: inline-block;
-  padding: 0.4em 0.5em;
-  color: #5D5E5E;
-  background-color: none;
-  text-decoration: none;
-  border: solid #5D5E5E 2px;
-  border-radius: 2px;
-  letter-spacing: 1px;
-  font-size: 0.8em;
-   -webkit-transition: background-color 0.3s ease-out;
-  transition: background-color 0.3s ease-out;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-}
-
-a.button:hover, a.button:focus
-{
-  background-color: #5D5E5E;
-  color: #fff;
-}
 
