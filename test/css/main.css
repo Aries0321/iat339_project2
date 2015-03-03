@@ -166,9 +166,9 @@ hr
 /*** END OF BOX STUFF ***/
 
 .form{
-	position: absolute;
+	display: block;
 	top: 0em;
-	width: 24.9%;
+	width: 100%;
 	height: 3em;
 	border: solid #f6f6f6 2px;
 	background-color: white;
@@ -217,7 +217,6 @@ hr
 	width:100%;
 	border: solid #5D5E5E 2px;
 }
-
 
 
 .productCartText{
