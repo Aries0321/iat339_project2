@@ -1,39 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-    	<title>Cart</title>
-	    <link rel="stylesheet" href="css/main.css">
-	    <link rel="stylesheet" href="css/grid.css">
-	    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,400' rel='stylesheet' type='text/css'>
+  <head>
+    <meta charset="utf-8">
+    <title>LayoutTest</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link href="dist/stylesheets/jquery.sidr.dark.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,400' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
-	</head>
-
-	<body>
-		<div class="col-1of8">
-  			<div class="nav">
-	          <ul>
-	          <li><p><a href="index.html">TOUCH OF <br>MODERN</p></a></li>
-	          <li><p><a href="gadgets.html">GADGETS</p></a></li>
-	          <li><p><a href="technology.html">TECHNOLOGY</p></a></li>
-	          <li><p><a href="apparel.html">APPAREL</p></a></li>
-	          <li><hr></li>
-	          <li class="about"><p>ABOUT COMPANY</p></li>
-	          <li><hr></li>
-	          <div class="navSocial">
-	            <a href="facebook.com"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/06-facebook-128.png">
-	            </a>
-	            <a href="twitter.com"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/03-twitter-128.png">
-	            </a>
-	            <a href="instagram.com"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/38-instagram-128.png">
-	            </a>
-	          </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+    </script>
+    <script src="dist/jquery.sidr.js"></script>
+    <script>
+      $(document).ready(function() 
+      {
+        $('#demo').sidr();
+      });
+    </script>
+  </head>
+  <body>
+      <div id="sidr"> 
+          <div class="nav">
+            <ul>
+              <li><p><a href="index.html">HOME</p></a></li>
+              <li><p><a href="gadgets.html">GADGETS</p></a></li>
+              <li><p><a href="technology.html">TECHNOLOGY</p></a></li>
+              <li><p><a href="apparel.html">APPAREL</p></a></li>
+              <li class="about"><p>ABOUT COMPANY</p></li>
+           </ul>
+          </div>
+      </div>
+  		<div class="col-1of8">
+  			<div class="nav" id="hideMainNav">
+          <ul>
+          <li><p><a href="index.html">HOME</p></a></li>
+          <li><p><a href="gadgets.html">GADGETS</p></a></li>
+          <li><p><a href="technology.html">TECHNOLOGY</p></a></li>
+          <li><p><a href="apparel.html">APPAREL</p></a></li>
+          <li><hr></li>
+          <li class="about"><p>ABOUT COMPANY</p></li>
+          <li><hr></li>
+          <div class="navSocial">
+            <a href="facebook.com"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/06-facebook-128.png">
+            </a>
+            <a href="twitter.com"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/03-twitter-128.png">
+            </a>
+            <a href="instagram.com"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/38-instagram-128.png">
+            </a>
+          </div>
   			</div>
   		</div>
 
+      <div class="col-6of8">
+        <div class="search">
+          <a id="demo" href="#sidr">MENU</a>
+          <input type = "text" name ="s" class ="form-control" placeholder="Search">
+          <p id = "bag">BAG</p>
+          <a href="#"><img src="http://travelconditions.biz/wp-content/uploads/2014/10/shopping-bag-icon-black-and.png">
+
+            <p>LOG IN</p>
+        </div>
+      </div>Z
+
 		<div class="col-6of8Purchase">
 			<div class = "purchasePage">
-				<h1>MY CART</h1>
+				<h1>MY BAG</h1>
 				<div class = "purchasePageText">
 				  <h3> PRODUCT </h3>
 	  				<div class="productCart">
