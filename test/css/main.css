@@ -44,7 +44,7 @@ h3
 
 p
 {
-  font-size:13px;
+  font-size: 13px;
 }
 
 ul, ol, li 
@@ -54,11 +54,12 @@ ul, ol, li
 	list-style-image: none;
 }
 
-.nav li.about
+.nav li.about p
 {
-	text-transform: none;
-	margin-bottom: 1em;
-	height:200px;
+	font-size:10px;
+	margin-right: 2em;
+	margin-left: 2.5em;
+	letter-spacing: 0.5px;
 }
 
 hr
@@ -105,6 +106,10 @@ hr
 	float: left;
 }
 
+#demo{
+		display: none;
+	}
+
 @media (max-width: 60em){
 	.nav
 	{
@@ -114,9 +119,18 @@ hr
 	{
 		margin-bottom: 5em;
 	}
+	#demo
+	{
+		margin: 0.7em 0px 0px 0.5em;
+		display: inline-block;
+		float: left;
+	}
+	#hideMainNav
+	{
+		display:none;
+	}
+
 }
-
-
 
 /*** END OF NAV ***/
 
@@ -131,11 +145,11 @@ hr
 .box 
 {
 	width: 100%;
-	height: 324px;
+	height: 350px;
 	z-index: 1;
 	background-size: 100% 100%;
   	background-repeat: no-repeat;
-  	background-position: center center;
+  	background-position: auto auto;
   	display: inline-block;
   	transition: all 0.2s ease-in;
 }
@@ -151,7 +165,7 @@ hr
 	opacity: 1;
 	color: #000;
 	padding-top: 1px;
-	margin-top: 255px;
+	margin-top: 280px;
 	line-height: 0.8em;
 	transition: all 0.1s ease-in;
 }
@@ -163,18 +177,75 @@ hr
 	height: 70px;
 }
 
+@media (max-width: 60em){
+	.box 
+	{
+		background-size: 105% 100%;
+		background-position: 50% 50%;
+	}
+}
+
 /*** END OF BOX STUFF ***/
 
-.form{
+/***TOP SEARCH BAR***/
+.search
+{
 	display: block;
 	top: 0em;
 	width: 100%;
 	height: 3em;
-	border: solid #f6f6f6 2px;
-	background-color: white;
+/*	border: solid #f6f6f6 2px;*/
+	background-color: #222222;
 	right: 12.5%;
 	z-index: 1000;
+	text-align: right;
+	margin-right: 1em;
 }
+
+@media (max-width: 30em){
+	.search input{
+		width: 30%;
+	}
+}
+
+.search p 
+{
+	margin: 1em 1em 0px 0px;
+	float: right;
+	color: #E9E9E9;
+}
+
+#demo
+{
+	color: #E9E9E9;
+}
+
+a
+{
+	margin:0em;
+	padding:0em;
+}
+
+.search input
+{
+  height: 25px;
+  background-color: #222222;
+  border: solid #E9E9E9 1.5px;
+  border-radius: 2px;
+  font-color: #E9E9E9;
+  letter-spacing: 0.12em;
+  margin: 1em 1em 0px 0px;
+  float: right;
+}
+
+.search img
+{
+	float: right;
+	height:25px;
+	margin: 0.5em 1em 0px 0px;
+}
+
+/***END OF TOP SEARCH BAR***/
 
 .purchasePage{
 	margin: 5% 5% 5% 5%;
@@ -208,7 +279,6 @@ hr
   font-color: #fff;
   letter-spacing: 0.1em;
 }
-
 
 
 .productSummary{
