@@ -1,5 +1,5 @@
 /*
-Grid Stylesheet
+Grid Stylesheet touchofm
 */
 
 *, *::after, *::before {
@@ -15,13 +15,12 @@ Grid Stylesheet
 }
 
 
-
 .col-1of8 {
-	/*width: 200px;*/
-	width:12.5%;
-	background-color: #EEEEEE;
+/*	width: 220px;*/
+	width:16%;
+	background-color: #E9E9E9;
 	padding: 0;
-	height:81.5em;
+	height:91em;
 }
 
 .col-1of8Prod
@@ -38,7 +37,7 @@ Grid Stylesheet
 }
 
 .col-2of8{
-	width: 25%;
+	width: 28%;
 	padding: 0;
 	margin: 0;
 	border: solid #000 1px;
@@ -72,7 +71,7 @@ Grid Stylesheet
 }
 
 .col-6of8 {
-	width: 75%;
+	width: 84%;
 }
 
 @media (max-width: 60em) {
@@ -83,7 +82,7 @@ Grid Stylesheet
 
 
 .col-6of8Purchase{
-	width:75%;
+	width:84%;
 }
 
 @media (max-width: 60em) {
