@@ -21,18 +21,14 @@ Grid Stylesheet touchofm
 	background-color: #E9E9E9;
 	padding: 0;
 	height:91em;
+	position: fixed;
 }
 
-.col-1of8Prod
-{
-	height:50em;
-}
-
-
-@media (max-width: 60em){
+@media (max-width: 65em){
 	.col-1of8{
 		width: 100%;
 		height:5%;
+		position: static;
 	}
 }
 
@@ -43,7 +39,7 @@ Grid Stylesheet touchofm
 	border: solid #000 1px;
 }
 
-@media (max-width: 60em) {
+@media (max-width: 65em) {
 	.col-2of8{
 		width: 50%;
 	}
@@ -74,7 +70,19 @@ Grid Stylesheet touchofm
 	width: 84%;
 }
 
-@media (max-width: 60em) {
+.col-7of8BoxDiv{
+	width: 100%;
+	display: block;
+	margin-left: 16%;
+}
+
+@media (max-width: 65em) {
+	.col-7of8BoxDiv {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 65em) {
 	.col-6of8 {
 		width: 100%;
 	}
@@ -87,7 +95,7 @@ Grid Stylesheet touchofm
 
 @media (max-width: 60em) {
 	.col-6of8Purchase{
-		width: 90%;
+		width: 100%;
 	}
 }
 
