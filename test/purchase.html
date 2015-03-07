@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-    	<title>Purchase</title>
-	    <link rel="stylesheet" href="css/main.css">
-	    <link rel="stylesheet" href="css/grid.css">
-	    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,400' rel='stylesheet' type='text/css'>
-    	<link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>    	 
-	</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Purchase</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link href="dist/stylesheets/jquery.sidr.dark.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+    </script>
+    <script src="dist/jquery.sidr.js"></script>
+    <script>
+      $(document).ready(function() 
+      {
+        $('#demo').sidr();
+      });
+    </script>
+  </head>
 
 	<body>
 		<!-- NAV -->
@@ -31,7 +42,8 @@
 	          </div>
 	  		</div>
   		</div>
-  		<!--<div class="marginBox"></div>-->
+
+  		<div class="col-7of8BoxDiv">
 		<div class="col-6of8Purchase">
 			<div class = "purchasePage">
 				<h1> ENTER YOUR INFO</h1>
@@ -52,8 +64,8 @@
 	  				  <a class="button" href="#">NEXT PAGE</a> 
 	  				</div>
 				</div>
-				 
 			</div>
 		</div>
+	</div>
 	</body>
 </html>
