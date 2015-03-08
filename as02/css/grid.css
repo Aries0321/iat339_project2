@@ -17,7 +17,7 @@
   	width:13%;
   	background-color: #E9E9E9;
   	padding: 0;
-  	height:91em;
+  	height:110em;
   	*position: fixed;*/
 
 }
@@ -48,7 +48,7 @@
 /*whole*/
 .col-4of4 {
   width:100%;
-  top:3em;
+  top:2em;
   display:inline-block;
   position:fixed
 }
@@ -74,6 +74,21 @@
     display:inline-block;
   }
 }
+
+.col-2of4 {
+
+  display:inline-block;
+  width: 66.6666%;
+  padding: 0;
+  margin: left;
+  border: solid #000 1px;
+}
+
+@media (max-width: 65em) {
+  .col-2of4 {
+    width: 100%;
+  }
+ }
 
 /*individual column*/
 .col-1of4 {
