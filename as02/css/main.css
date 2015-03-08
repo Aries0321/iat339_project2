@@ -1,0 +1,198 @@
+body
+{
+	font-family: "Open Sans", sans-serif;
+	color: black;
+	padding: 0em;
+	margin: 0em;
+}
+
+a, a:visited
+{
+	text-decoration: none;
+	color:#000;
+	-webkit-transition: color 0.2s ease-out 0;
+  	transition: color 0.2s ease-out 0;
+}
+
+a:hover
+{
+	color: #5D5E5E;
+}
+
+h1
+{
+  font-family: "Montserrat";
+  font-size: 2em;
+  letter-spacing: 0.1em;
+}
+
+h2
+{
+  font-family: "Montserrat";
+  font-size: 25px;
+  letter-spacing: 0.1em;
+}
+
+h3
+{
+  font-weight: 400;
+  font-family: "Montserrat";
+  font-size: 15px;
+  letter-spacing: 0.1em;
+}
+
+p
+{
+  font-size: 13px;
+}
+
+ul, ol, li
+{
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+.nav li.about p
+{
+	font-size:10px;
+	margin-right: 2em;
+	margin-left: 2.5em;
+	letter-spacing: 0.5px;
+}
+
+hr
+{
+	margin:2em 1em 2em 1.5em;
+	width:70%;
+}
+
+/*********** BEGINNING OF NAV SIDEBAR ***********/
+.nav
+{
+	margin-top: 5em;
+	text-align: left;
+}
+
+.nav a
+{
+	display: block;
+	left:0;
+	/*height: 80em;*/
+	height:100%;
+	line-height: 2em;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.nav p
+{
+	letter-spacing: 1px;
+	line-height: 2em;
+	margin-left: 2em;
+}
+/*********** END OF NAV SIDEBAR ***********/
+
+/*********** BOX STUFF ***********/
+.box1Img
+{
+	display: inline-block;
+	background-image: url(http://dummyimage.com/600x500/aaa/fff.png);
+}
+
+.box
+{
+	width: 100%;
+	height: auto;
+	z-index: 1;
+	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: 50% 50%;
+  	display: inline-block;
+  	transition: all 0.2s ease-in;
+}
+
+.box:hover
+{
+  background-size: 103% 103%;
+  cursor: pointer;
+}
+
+.box1Line
+{
+	opacity: 1;
+	color: #000;
+	padding-top: 1px;
+	margin-top: 280px;
+	line-height: 0.8em;
+	transition: all 0.1s ease-in;
+}
+
+.bgBoxDescription
+{
+	opacity: 0.5;
+	background-color: #eee;
+	height: 70px;
+}
+
+/*********** END OF BOX STUFF ***********/
+
+/*********** TOP SEARCH BAR ***********/
+.search
+{
+	display: inline-block;
+	top: 0em;
+	width: 100%;
+	height: 3em;
+/*	border: solid #f6f6f6 2px;*/
+	background-color: #222222;
+	z-index: 1000;
+	text-align: right;
+	margin-right: 1em;
+}
+
+@media (max-width: 30em){
+	.search input{
+		width: 30%;
+	}
+}
+
+.search p
+{
+	margin: 1.2em 1em 0px 0px;
+	float: right;
+	color: #E9E9E9;
+}
+
+#demo
+{
+	color: #E9E9E9;
+}
+
+a
+{
+	margin:0em;
+	padding:0em;
+}
+
+.search input
+{
+  height: 25px;
+  background-color: #222222;
+  border: solid #E9E9E9 1.5px;
+  border-radius: 2px;
+  font-color: #E9E9E9;
+  letter-spacing: 0.12em;
+  margin: 1em 1em 0px 0px;
+  float: right;
+}
+
+.search img
+{
+	float: right;
+	height:25px;
+	margin-top: 0.5em;
+	margin-right: 0.5em;
+}
+
+/*********** END OF TOP SEARCH BAR ***********/
