@@ -29,7 +29,7 @@ h1
 h2
 {
   font-family: "Montserrat";
-  font-size: 25px;
+  font-size: 22px;
   letter-spacing: 0.1em;
 }
 
@@ -167,6 +167,29 @@ hr
 #demo
 {
 	color: #E9E9E9;
+	display: none;
+}
+
+@media (max-width: 65em){
+	.nav
+	{
+		margin-top: 0;
+	}
+	.navSocial
+	{
+		margin-bottom: 5em;
+	}
+	#demo
+	{
+		margin: 0.7em 0px 0px 0.5em;
+		display: inline-block;
+		float: left;
+	}
+	#hideMainNav
+	{
+		display:none;
+	}
+
 }
 
 a
