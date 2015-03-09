@@ -262,7 +262,7 @@ hr
 .box1Img
 {
 	display: inline-block;
-	background-image: url(http://www.sfu.ca/~zla52/asset/manShirt-02.jpg);
+	background-image: url(http://www.sfu.ca/~zla52/asset/uncropped/kuboram.jpg);
 }
 
 .box2Img
@@ -313,7 +313,7 @@ hr
 {
  /* background-size: 102% 120%;*/
   cursor: pointer;
-  color: #E9E9E9;
+  color: #292B2E;
 }
 
 .box1Line
@@ -329,8 +329,8 @@ hr
 	margin-top: 260px;
 	background-image: 
     linear-gradient(
-      rgba(41, 43, 45, 0.4),
-      rgba(41, 43, 45, 0.4)
+      rgba(41, 43, 45, 0.3),
+      rgba(41, 43, 45, 0.3)
     ), url();
 	height: 100px;
 }
@@ -648,6 +648,59 @@ a.button:hover, a.button:focus
   	font-color: #fff;
   	letter-spacing: 0.1em;
 	border-radius: 1px;
+}
+
+#purchaseBut
+{
+	margin-top: 1em;
+	margin-left: 19.35em;
+	float: none;
+	margin-bottom: 1em;
+}
+
+@media ( max-width: 65em) {
+  .titleBox{
+    width: 100px;
+  }
+}
+
+@media ( max-width: 45em) {
+  .titleBox{
+    width: 50%;
+  }
+  .placeholderBox input{
+  margin-left:0em;
+  width: 100%;
+
+  }
+  .placeholderBox {
+  margin-left:0em;
+  width: 100%;
+  
+  }
+  .titleBox
+  {
+  	width: 90%;
+  	height: 2.5em;
+  }
+  .pageTitle
+  {
+  	margin-left: 2em;
+  	margin-bottom: 2em;
+
+  }
+  #personalInfoSection
+  {
+  	width:50%;
+  }
+  .formBox
+  {
+  	margin-left: 3em;
+  }
+  #paymentMethod {
+  	margin-top: 2em;
+  	margin-bottom: 2em;
+  }
 }
 
 /*********** END OF PURCHASE PAGE ***********/
