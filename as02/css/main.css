@@ -295,6 +295,42 @@ hr
 	background-image: url(http://www.sfu.ca/~zla52/asset/uncropped/bookendPair.png);
 }
 
+.box1aImg
+{
+	display: inline-block;
+	background-image: url(https://touchofmodern.insnw.net/products/000/106/215/c5a03ac72bfe1659be4e1cfdfa55c36b_medium.jpg?1406945090);
+}
+
+.box2aImg
+{
+	display: inline-block;
+	background-image: url(https://touchofmodern.insnw.net/products/000/189/492/e178047e8c956583f7d08e5012584c92_medium.jpg?1425675664);
+}
+
+.box3aImg
+{
+	display: inline-block;
+	background-image: url(https://touchofmodern.insnw.net/products/000/189/159/faa259972af90902d0473cdf637f00e6_medium.jpg?1425593922);
+}
+
+.box5aImg
+{
+	display: inline-block;
+	background-image: url(https://touchofmodern.insnw.net/products/000/160/702/7041f833e9e8d419d12e36135445746c_medium.jpg?1418677358);
+}
+
+.box6aImg
+{
+	display: inline-block;
+	background-image: url(https://touchofmodern.insnw.net/products/000/188/854/52ed6de36dae5a3633d4d29d17f1c70e_medium.jpg?1425584664);
+}
+
+.box7aImg
+{
+	display: inline-block;
+	background-image: url(https://touchofmodern.insnw.net/products/000/110/728/e023541487f3b5c8059b7f97368efc8a_medium.jpg?1408139131);
+}
+
 .box
 {
 	color: #f8f9f9;
@@ -472,7 +508,7 @@ hr
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-image: url(https://touchofmodern.insnw.net/products/000/189/159/faa259972af90902d0473cdf637f00e6_medium.jpg?1425593922);
+	background-image: url(http://www.sfu.ca/~zla52/asset/Ora-Teapot-Paul-Loebach-Kikkerland-3.jpg);
 	height: 100px;
 	width: 85%;
 	background-color: black;
@@ -486,7 +522,7 @@ hr
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-image: url(http://www.sfu.ca/~zla52/asset/Ora-Teapot-Paul-Loebach-Kikkerland-3.jpg);
+	background-image: url(https://touchofmodern.insnw.net/products/000/189/159/faa259972af90902d0473cdf637f00e6_medium.jpg?1425593922);
 	height: 100px;
 	width: 85%;
 	background-color: black;
