@@ -74,8 +74,15 @@ hr
 	text-align: left;
 }
 
+.navMobile
+{
+	margin-top: 1.7em;
+	text-align: left;
+}
+
 .nav a
 {
+	margin-left: 2em;
 	display: block;
 	left:0;
 	/*height: 80em;*/
@@ -85,25 +92,67 @@ hr
 	font-weight: 600;
 }
 
-.nav p
+.navMobile a
 {
+	display: block;
+	left:0;
+	/*height: 80em;*/
+	height:100%;
+	line-height: 3em;
 	letter-spacing: 1px;
-	line-height: 2em;
+	font-weight: 600;
+}
+
+.navMobile p
+{
+	font-weight: 300;
+	letter-spacing: 1px;
 	margin-left: 2em;
+}
+
+.aboutMobile p
+{
+	letter-spacing: 0px;
+	margin-right: 1em;
+	font-weight: 300;
+}
+
+#active
+{
+	color: #5D5E5E;
 }
 
 .footer
 {
 	color: #f8f9f9;
-	margin-top: 1em;
+	position: fixed;
 	background-color: #222222;
+	bottom: 0;
+	width: 13%
+}
+
+.footerMobile
+{
+	color: #f8f9f9;
+	position: fixed;
+	background-color: #222222;
+	bottom: 0;
+	width: 100%
 }
 
 .footer p
 {
-	margin-top: 60%;
+	margin-left:2em;
 	font-size:9px;
-	line-height: 1.5em;
+	line-height: 1em;
+	letter-spacing: 0.5px;
+}
+
+.footerMobile p
+{
+	margin-left: 2em;
+	font-size:7px;
+	line-height: 0.5em;
 	letter-spacing: 0.5px;
 }
 /*********** END OF NAV SIDEBAR ***********/
@@ -111,13 +160,8 @@ hr
 /*********** TOP SEARCH BAR ***********/
 .logoDiv
 {
-	width: 300px;
+	width: 290px;
 	height: 80%;
-}
-
-#logoid
-{
-	margin: 0.1em 0px 0px 1em;
 }
 
 .search
@@ -134,15 +178,9 @@ hr
 	font-weight: 300;
 }
 
-@media (max-width: 45em){
-	.search input{
-		width: 30%;
-	}
-}
-
 .search p
 {
-	margin: 0.6em 1em 1em 0px;
+	margin: 0.5em 1em 1em 0px;
 	float: right;
 	color: #E9E9E9;
 
@@ -189,8 +227,19 @@ hr
   margin: 0.4em 2em 0px 0px;
   float: right;
   color: #E9E9E9;
-  letter-spacing: 0.1em;
   padding-left: 0.5em;
+}
+
+@media (max-width: 45em){
+	.search input{
+		width: 20%;
+		margin: 0.4em 1em 0px 0px;
+	}
+
+	.search p{
+		margin: 0.5em 1em 0em 0px;
+	}
+	
 }
 
 .search img
@@ -203,7 +252,7 @@ hr
 #menuButton
 {
 	top: 0;
-	left:0;
+	margin-left: 0.5em;
 }
 
 
@@ -228,6 +277,24 @@ hr
 	background-image: url(http://www.sfu.ca/~zla52/asset/watch-02.jpg);
 }
 
+.box5Img
+{
+	display: inline-block;
+	background-image: url(http://www.sfu.ca/~zla52/asset/uncropped/Crane-Ligth-Black.jpg);
+}
+
+.box6Img
+{
+	display: inline-block;
+	background-image: url(http://www.sfu.ca/~swisjnu/iat339/earth.png);
+}
+
+.box7Img
+{
+	display: inline-block;
+	background-image: url(http://www.sfu.ca/~zla52/asset/uncropped/bookendPair.png);
+}
+
 .box
 {
 	color: #f8f9f9;
@@ -236,7 +303,7 @@ hr
 	z-index: 1;
 	background-size: cover;
   	background-repeat: no-repeat;
-  	background-position: 75% 75%;
+  	background-position: center;
   	display: inline-block;
   	transition: all 0.2s ease-in;
   	text-align: left;
@@ -246,6 +313,7 @@ hr
 {
  /* background-size: 102% 120%;*/
   cursor: pointer;
+  color: #E9E9E9;
 }
 
 .box1Line
@@ -253,7 +321,6 @@ hr
 	padding-top: 1px;
 	z-index: 100;
 	line-height: 0.8em;
-	transition: all 0.1s ease-in;
 }
 
 .bgBoxDescription
@@ -264,20 +331,14 @@ hr
     linear-gradient(
       rgba(41, 43, 45, 0.4),
       rgba(41, 43, 45, 0.4)
-    ),
-    url(shoes.jpg);
+    ), url();
 	height: 100px;
 }
-
-.newsDescription
-{
-	margin-left: 1.3em;
-}
-
 
 #events
 {
 	background-color: #4CA0CB;
+	height: 360px;
 }
 
 #news
@@ -286,9 +347,15 @@ hr
 	height: 360px;
 }
 
+.box h2
+{
+	margin-left: 0.8em;
+	letter-spacing: 0px;
+}
+
 .box h3
 {	
-	margin-left: 1.3em;
+	margin-left: 1em;
 	margin-bottom: 0;
 }
 
