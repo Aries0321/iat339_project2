@@ -582,3 +582,73 @@ a.button:hover, a.button:focus
 }
 /*********** END OF BUTTON STYLE ***********/
 
+/*********** START OF PURCHASE PAGE ***********/
+
+#personalInfoSection
+{
+	width: 40%;
+	height: auto;
+}
+
+#paymentMethod
+{
+	margin-top: 5em;
+}
+
+.titleBox
+{
+	width: 35%;
+	display: inline-block;
+	/*border: solid #E9E9E9 1.5px;*/
+	height: 3em;
+	float: left;
+}
+
+.placeholderBox
+{
+	width: 65%;
+	display: inline-block;
+	text-align: left;
+	height: 3em;
+	/*border: solid #E9E9E9 1.5px;*/
+}
+
+.titleBox h3
+{	
+	font-size: 0.7em;
+	text-align: left;
+	margin-left: 0;
+	margin-top: 2em;
+}
+
+
+.placeholderBox input
+{	
+	margin-left: 1em;
+	margin-top: 1em;
+	width: 70%;
+	height: 30px;
+  	background-color: none;
+  	border: solid black 2px;
+  	border-radius: 2px;
+  	font-color: #fff;
+  	letter-spacing: 0.1em;
+	border-radius: 1px;
+}
+
+.placeholderBox select
+{
+	margin-left: 1em;
+	margin-top: 1em;
+	width: 35%;
+	height: 30px;
+  	background-color: none;
+  	border: solid black 2px;
+  	border-radius: 2px;
+  	font-color: #fff;
+  	letter-spacing: 0.1em;
+	border-radius: 1px;
+}
+
+/*********** END OF PURCHASE PAGE ***********/
+
