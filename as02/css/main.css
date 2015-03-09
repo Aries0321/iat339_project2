@@ -336,3 +336,161 @@ hr
 }
 
 /*********** END PRODUCT PAGE ***********/
+
+/*********** START OF MY BAG PAGE ***********/
+.pageTitle 
+{
+	margin-top: 8em;
+	margin-left: 4.5em;
+	margin-bottom: 3em;
+	text-align: left;
+}
+
+.formBox 
+{
+	margin-left: 6em;
+	margin-right: 7em;
+	border: solid #E9E9E9 1.5px;
+	height: 37em;
+}
+
+.proportionForm 
+{
+	display: inline-block;
+	float: left;
+	border: solid #E9E9E9 1.5px;
+	text-align: left;
+}
+
+#product {
+	width:15%;
+}
+
+#item {
+
+	width: 35%;
+}
+
+#quantity {
+
+	width: 15%;
+}
+
+#update {
+
+	width: 10%;
+}
+
+#price {
+
+	width: 10%;
+}
+
+#itemTotal {
+
+	width: 15%;
+}
+
+.formBox hr 
+{
+	width: 100%;
+	margin:0;
+	border: solid black 1.5px;
+}
+
+.imageHolder 
+{
+	width: 85%;
+	background-color: black;
+	height: 7em;
+	margin-left: 0.5em;
+	margin-bottom: 1em;
+}
+
+.padding 
+{
+	margin-top: 2em;
+}
+
+.receipt 
+{
+	width:35%;
+	float: right;
+	border: solid #E9E9E9 1.5px;
+	margin-top: 2em;
+	font-family:"Open Sans";
+}
+
+.receipt h2
+{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	text-align: left;
+	font-weight: 600;
+	font-size: 0.8em;
+	margin-top: 0.5em;
+
+}
+
+.receipt p 
+{
+	display: inline-block;
+	width: 50%;
+	float: right;
+	text-align: right;
+	margin-top: 0em;
+	font-size: 0.9em;
+}
+
+#fontStrong
+{
+	font-size:1.2em;
+}
+
+#priceStrong
+{	
+	margin-top: 0.3em;
+	font-size: 1.4em;
+}
+/*********** END OF MY BAG PAGE ***********/
+
+/*********** START OF BUTTON STYLE ***********/
+a.button 
+{
+  font-weight: 700;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #5D5E5E;
+  background-color: none;
+  text-decoration: none;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border: solid #5D5E5E 2px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-size: 0.8em;
+  margin-left: 10em;
+}
+
+a
+{
+  text-decoration: none;
+  color:#000;
+}
+
+a.button:hover, a.button:focus
+{
+  background-color: #5D5E5E;
+  color: #fff;
+}
+
+.button
+{
+	display: block;
+	float: right;
+}
+/*********** END OF BUTTON STYLE ***********/
+
