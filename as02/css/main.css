@@ -407,7 +407,7 @@ hr
 /*********** START OF MY BAG PAGE ***********/
 .pageTitle 
 {
-	margin-top: 8em;
+	margin-top: 4em;
 	margin-left: 4.5em;
 	margin-bottom: 3em;
 	text-align: left;
@@ -417,7 +417,7 @@ hr
 {
 	margin-left: 6em;
 	margin-right: 7em;
-	border: solid #E9E9E9 1.5px;
+	/*border: solid #E9E9E9 1.5px;*/
 	height: 37em;
 }
 
@@ -425,7 +425,7 @@ hr
 {
 	display: inline-block;
 	float: left;
-	border: solid #E9E9E9 1.5px;
+	/*border: solid #E9E9E9 1.5px;*/
 	text-align: left;
 }
 
@@ -461,16 +461,37 @@ hr
 .formBox hr 
 {
 	width: 100%;
-	margin:0;
+	margin-left: 0;
+	margin-bottom: 1.5em;
+	margin-top: 1.5em;
 	border: solid black 1.5px;
 }
 
-.imageHolder 
-{
+.imageHolder1
+{	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(https://touchofmodern.insnw.net/products/000/189/159/faa259972af90902d0473cdf637f00e6_medium.jpg?1425593922);
+	height: 100px;
 	width: 85%;
 	background-color: black;
 	height: 7em;
-	margin-left: 0.5em;
+	/*margin-left: 0.5em;*/
+	margin-bottom: 1em;
+}
+
+.imageHolder2
+{	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(http://www.sfu.ca/~zla52/asset/Ora-Teapot-Paul-Loebach-Kikkerland-3.jpg);
+	height: 100px;
+	width: 85%;
+	background-color: black;
+	height: 7em;
+	/*margin-left: 0.5em;*/
 	margin-bottom: 1em;
 }
 
@@ -483,7 +504,7 @@ hr
 {
 	width:35%;
 	float: right;
-	border: solid #E9E9E9 1.5px;
+	/*border: solid #E9E9E9 1.5px;*/
 	margin-top: 2em;
 	font-family:"Open Sans";
 }
