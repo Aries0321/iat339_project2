@@ -91,53 +91,35 @@ hr
 	line-height: 2em;
 	margin-left: 2em;
 }
+
+.footer
+{
+	color: #f8f9f9;
+	margin-top: 1em;
+	background-color: #222222;
+}
+
+.footer p
+{
+	margin-top: 60%;
+	font-size:9px;
+	line-height: 1.5em;
+	letter-spacing: 0.5px;
+}
 /*********** END OF NAV SIDEBAR ***********/
 
-/*********** BOX STUFF ***********/
-.box1Img
-{
-	display: inline-block;
-	background-image: url(http://dummyimage.com/600x500/aaa/fff.png);
-}
-
-.box
-{
-	width: 100%;
-	height: auto;
-	z-index: 1;
-	background-size: cover;
-  	background-repeat: no-repeat;
-  	background-position: 50% 50%;
-  	display: inline-block;
-  	transition: all 0.2s ease-in;
-}
-
-.box:hover
-{
-  background-size: 103% 103%;
-  cursor: pointer;
-}
-
-.box1Line
-{
-	opacity: 1;
-	color: #000;
-	padding-top: 1px;
-	margin-top: 280px;
-	line-height: 0.8em;
-	transition: all 0.1s ease-in;
-}
-
-.bgBoxDescription
-{
-	opacity: 0.5;
-	background-color: #eee;
-	height: 70px;
-}
-
-/*********** END OF BOX STUFF ***********/
-
 /*********** TOP SEARCH BAR ***********/
+.logoDiv
+{
+	width: 300px;
+	height: 80%;
+}
+
+#logoid
+{
+	margin: 0.1em 0px 0px 1em;
+}
+
 .search
 {
 	display: inline-block;
@@ -149,9 +131,10 @@ hr
 	z-index: 1000;
 	text-align: right;
 	margin-right: 1em;
+	font-weight: 300;
 }
 
-@media (max-width: 30em){
+@media (max-width: 45em){
 	.search input{
 		width: 30%;
 	}
@@ -159,9 +142,10 @@ hr
 
 .search p
 {
-	margin: 1.2em 1em 0px 0px;
+	margin: 0.6em 1em 1em 0px;
 	float: right;
 	color: #E9E9E9;
+
 }
 
 #demo
@@ -181,7 +165,7 @@ hr
 	}
 	#demo
 	{
-		margin: 0.7em 0px 0px 0.5em;
+		margin: 0em 0px 0px 0.5em;
 		display: inline-block;
 		float: left;
 	}
@@ -189,36 +173,142 @@ hr
 	{
 		display:none;
 	}
+	.logoDiv
+	{
+		display: none;
+	}
 
-}
-
-a
-{
-	margin:0em;
-	padding:0em;
 }
 
 .search input
 {
-  height: 25px;
+  height: 23px;
   background-color: #222222;
   border: solid #E9E9E9 1.5px;
   border-radius: 2px;
-  font-color: #E9E9E9;
-  letter-spacing: 0.12em;
-  margin: 0.4em 3em 0px 0px;
+  margin: 0.4em 2em 0px 0px;
   float: right;
+  color: #E9E9E9;
+  letter-spacing: 0.1em;
+  padding-left: 0.5em;
 }
 
 .search img
 {
 	float: right;
 	height:25px;
-	margin-top: 0.5em;
-	margin-right: 0.5em;
+	margin: 0.2em 0.1em 0px 0px;
 }
 
+#menuButton
+{
+	top: 0;
+	left:0;
+}
+
+
 /*********** END OF TOP SEARCH BAR ***********/
+
+/*********** BOX STUFF ***********/
+.box1Img
+{
+	display: inline-block;
+	background-image: url(http://www.sfu.ca/~zla52/asset/manShirt-02.jpg);
+}
+
+.box2Img
+{
+	display: inline-block;
+	background-image: url(http://www.sfu.ca/~zla52/asset/Ora-Teapot1.jpg);
+}
+
+.box3Img
+{
+	display: inline-block;
+	background-image: url(http://www.sfu.ca/~zla52/asset/watch-02.jpg);
+}
+
+.box
+{
+	color: #f8f9f9;
+	width: 100%;
+	height: auto;
+	z-index: 1;
+	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: 75% 75%;
+  	display: inline-block;
+  	transition: all 0.2s ease-in;
+  	text-align: left;
+}
+
+.box:hover
+{
+ /* background-size: 102% 120%;*/
+  cursor: pointer;
+}
+
+.box1Line
+{
+	padding-top: 1px;
+	z-index: 100;
+	line-height: 0.8em;
+	transition: all 0.1s ease-in;
+}
+
+.bgBoxDescription
+{
+	z-index: 0;
+	margin-top: 260px;
+	background-image: 
+    linear-gradient(
+      rgba(41, 43, 45, 0.4),
+      rgba(41, 43, 45, 0.4)
+    ),
+    url(shoes.jpg);
+	height: 100px;
+}
+
+.newsDescription
+{
+	margin-left: 1.3em;
+}
+
+
+#events
+{
+	background-color: #4CA0CB;
+}
+
+#news
+{
+	background-color: #292B2E;
+	height: 360px;
+}
+
+.box h3
+{	
+	margin-left: 1.3em;
+	margin-bottom: 0;
+}
+
+.box a{
+	color: #f8f9f9;
+}
+
+.box p
+{
+	font-size: 11px;
+	margin-top: 0.7em;
+	margin-left: 1.7em;
+	font-weight: 300;
+	margin-right: 5em;
+	line-height: 1.1em;
+	letter-spacing: 0.5px;
+}
+
+
+/*********** END OF BOX STUFF ***********/
 
 /*********** START PRODUCT PAGE ***********/
 
