@@ -112,8 +112,9 @@ hr
 
 .aboutMobile p
 {
-	letter-spacing: 0px;
+	letter-spacing: 0.5px;
 	margin-right: 1em;
+	line-height: 1.1em;
 	font-weight: 300;
 }
 
@@ -268,7 +269,7 @@ hr
 .box2Img
 {
 	display: inline-block;
-	background-image: url(http://www.sfu.ca/~zla52/asset/Ora-Teapot1.jpg);
+	background-image: url(http://www.sfu.ca/~zla52/asset/oraTea/Ora-Teapot1.jpg);
 }
 
 .box3Img
@@ -373,8 +374,23 @@ hr
 
 #events
 {
+	background-size: contain;
 	background-color: #4CA0CB;
 	height: 360px;
+	background-position: 50% 80%;
+	background-image: url(http://www.sfu.ca/~zla52/asset/8888.png);
+}
+
+@media(max-width: 45em){
+	#events
+	{
+		background-size: contain;
+		background-image: url(http://www.sfu.ca/~zla52/asset/99-09.png);
+	}
+	.display
+	{
+		display: none;
+	}
 }
 
 #news
@@ -467,12 +483,12 @@ hr
 
 .gotoLeft
 {
-	width: 37%;
+	width: 80%;
 	display: block;
 	/*border: solid black 1.5px;*/
-	margin-left: 1.8em;
 	margin-top: 3em;
-
+	text-align: left;
+	margin-left: 2em;
 }
 
 .contentBox p{
@@ -503,8 +519,8 @@ hr
 	font-family:"OPEN SANS";
 	margin-top: 1.2em;
 	font-size: 1.2em;
-
 }
+
 .dropdownBox
 {
 	width: 70%;
@@ -531,7 +547,6 @@ hr
   	font-color: #fff;
   	letter-spacing: 0.1em;
 	border-radius: 1px;
-	display: inlin
 }
 
 .inlineBox
@@ -582,6 +597,85 @@ hr
 {
 	font-weight: 600;
 }
+
+@media (max-width: 65em){
+
+	.gallaryFixed {
+		width: 100%;
+		height: 30%;
+	}
+	.gallary{
+		width: 245%;
+		text-align: left;
+	}
+	.gotoLeft
+	{
+		margin-bottom: 0em;
+		margin-left: 1em;
+	}
+	#orateapotcol
+	{
+		width: 100%;
+		margin-right: 10em;
+	}
+	#addtobagBut
+	{
+		width:30%;
+		margin-right: 4em;
+	}
+	.contentBox
+	{
+		width:100%;
+		margin-left: 1em;
+	}
+	.contentBox p
+	{
+		width:100%;
+		margin-right: 8em;
+	}
+	#productdropdown
+	{
+		float: right;
+		margin-right: 5em;
+	}
+	#quantity
+	{
+		float: left;
+		margin-left: 25em;
+		margin-top: 2em;
+	}
+}
+
+@media (max-width: 45em){
+	.gotoLeft
+	{
+		margin-bottom: 0em;
+		margin-left: 0em;
+	}
+	.gotoLeft h2
+	{
+		margin-bottom: 0em;
+		margin-left: 0.7em;
+	}
+	.contentBox{
+		width:100%;
+		margin-left: 1em;
+	}
+	.inlineBox
+	{
+		margin-top: 3em;
+	}
+	#addtobagBut
+	{
+		margin-right: 4em;
+	}
+	#priceFont
+{
+	margin-top: 1.8em;
+	font-size: 0.9em;
+}
+}
+
 /*********** END PRODUCT PAGE ***********/
 
 /*********** START OF MY BAG PAGE ***********/
@@ -652,10 +746,9 @@ hr
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-image: url(http://www.sfu.ca/~zla52/asset/Ora-Teapot-Paul-Loebach-Kikkerland-3.jpg);
+	background-image: url(http://www.sfu.ca/~zla52/asset/oraTea/Ora-Teapot-Paul-Loebach-Kikkerland-3.jpg);
 	height: 100px;
 	width: 85%;
-	background-color: black;
 	height: 7em;
 	/*margin-left: 0.5em;*/
 	margin-bottom: 1em;
@@ -721,6 +814,8 @@ hr
 	margin-top: 0.3em;
 	font-size: 1.4em;
 }
+
+
 /*********** END OF MY BAG PAGE ***********/
 
 /*********** START OF BUTTON STYLE ***********/
@@ -764,6 +859,13 @@ a.button:hover, a.button:focus
 
 /*********** START OF PURCHASE PAGE ***********/
 
+#purchasePgTitle
+{
+	margin-top: 4em;
+	margin-left: 9.5em;
+	margin-bottom: 3em;
+}
+
 #personalInfoSection
 {
 	width: 40%;
@@ -777,36 +879,49 @@ a.button:hover, a.button:focus
 
 .titleBox
 {
-	width: 35%;
+	width: 40%;
 	display: inline-block;
 	/*border: solid #E9E9E9 1.5px;*/
 	height: 3em;
 	float: left;
 }
 
+#receiptPurchase
+{
+	float: right;
+	margin-top: 13.2em;
+	margin-right: 10em;
+	text-align: right;
+}
+
 .placeholderBox
 {
-	width: 65%;
+	width: 60%;
 	display: inline-block;
 	text-align: left;
 	height: 3em;
 	/*border: solid #E9E9E9 1.5px;*/
 }
 
+#hrpurchase
+{
+	width:85%;
+}
+
 .titleBox h3
 {	
 	font-size: 0.7em;
 	text-align: left;
-	margin-left: 0;
+	margin-left: 10em;
 	margin-top: 2em;
 }
 
 
 .placeholderBox input
 {	
-	margin-left: 1em;
+	margin-left: 10em;
 	margin-top: 1em;
-	width: 70%;
+	width: 60%;
 	height: 30px;
   	background-color: none;
   	border: solid black 2px;
@@ -818,9 +933,9 @@ a.button:hover, a.button:focus
 
 .placeholderBox select
 {
-	margin-left: 1em;
+	margin-left: 10em;
 	margin-top: 1em;
-	width: 35%;
+	width: 60%;
 	height: 30px;
   	background-color: none;
   	border: solid black 2px;
@@ -833,21 +948,32 @@ a.button:hover, a.button:focus
 #purchaseBut
 {
 	margin-top: 1em;
-	margin-left: 19.35em;
+	margin-left: 80%;
 	float: none;
 	margin-bottom: 1em;
+}
+
+.receiptAfter
+{
+	width:35%;
+	float: right;
+	/*border: solid #E9E9E9 1.5px;*/
+	margin-top: -1em;
+	font-family:"Open Sans";
+	margin-right: 2em;
+
 }
 
 @media ( max-width: 65em) {
   .titleBox{
     width: 100px;
   }
+  .receiptAfter{
+  	margin-top: -63.7em;
+  }
 }
 
 @media ( max-width: 45em) {
-  .titleBox{
-    width: 50%;
-  }
   .placeholderBox input{
   margin-left:0em;
   width: 100%;
@@ -862,6 +988,8 @@ a.button:hover, a.button:focus
   {
   	width: 90%;
   	height: 2.5em;
+  	margin-left: -7em;
+  	margin-bottom: 0.5em;
   }
   .pageTitle
   {
@@ -871,7 +999,7 @@ a.button:hover, a.button:focus
   }
   #personalInfoSection
   {
-  	width:50%;
+  	width:70%;
   }
   .formBox
   {
@@ -881,6 +1009,30 @@ a.button:hover, a.button:focus
   	margin-top: 2em;
   	margin-bottom: 2em;
   }
+  .placeholderBox select
+  {
+  	margin-left: 0em;
+  	width:100%;
+  }
+  #purchasePgTitle
+  {
+  	margin-left: 2.2em;
+  	margin-bottom: 0.5em;
+  }
+  #purchaseBut
+	{
+	margin-top: 1em;
+	margin-left: 73%;
+	float: none;
+	margin-bottom: 1em;
+	}
+.receiptAfter
+	{
+		margin-top:-15em; 
+		margin-left: 13em;
+		float: left;
+		text-align: left;
+	}
 }
 
 /*********** END OF PURCHASE PAGE ***********/
