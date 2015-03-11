@@ -3,7 +3,6 @@ body
   font-family: "Open Sans",sans-serif;
   padding: 1rem;
   background-color:#fff;
-  
 }
 
 section 
@@ -63,62 +62,59 @@ section code
 
 .img1
 {
+  display: inline-block;
   background-image: url(http://www.carsshow.net/wallpapers/2013/05/2011-BMW-3er-F30-modern-line-6-854x960.jpg);
 }
 
 .imgZoom
 {
   width:360px;
-  height: 300px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;
   display: inline-block;
-  transition: all 0.3s ease-in;;
+  transition: all 0.2s ease-in;
 }
 
 .imgZoom:hover {
+  background-size: 103% 103%;
   cursor: pointer;
-  background-size: 110% 110%;
 }
 
-/*.imgText:hover
+.imgText:hover
 {
   opacity: 0.5;
-  text-align: left;
-  color: #fff;
-  font-size: 15px;
-  padding: 100px;
-}*/
-
-.imgBut p
-{
-  padding-top: 100px;
+  background-color: #000;
 }
 
 .imgText{
+  opacity: 0;
+  font-size: 15px;
+  padding: 100px;
+  color: #fff;
+  text-align: center;
   width:160px;
   height:100px;
-  background-color: #000000;
-  opacity: 0;
+  transition: all 0.2s ease-in;
 }
 
 a.button 
 {
   font-weight: 700;
   display: inline-block;
-  padding: 0.5em 0.75em;
+  padding: 0.4em 0.5em;
   color: #5D5E5E;
   background-color: none;
   text-decoration: none;
-  -webkit-transition: background-color 0.3s ease-out;
-  transition: background-color 0.3s ease-out;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
   border: solid #5D5E5E 2px;
   border-radius: 2px;
   letter-spacing: 1px;
   font-size: 0.8em;
+
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
 }
 
 a
@@ -251,6 +247,22 @@ nav a:hover, nav a:focus
   text-align: center;
 }
 
+#squareLtGray 
+{
+  width: 100px;
+  height: 100px;
+  float:left;
+  display: inline-block;
+  margin: 10px 20px 1px 0;
+  background-color: #E9E9E9;
+  text-align: center;
+}
+
+#squareLtGray p{
+  padding-top: 40px;
+  color: #fff;
+}
+
 #squareBlackGray p{
   padding-top: 40px;
   color: #fff;
@@ -317,6 +329,17 @@ nav a:hover, nav a:focus
 }
 
 .logSignForm input
+{
+  margin:10px 10px 10px 0;
+  height: 20px;
+  background-color: none;
+  border: solid #5D5E5E 2px;
+  border-radius: 2px;
+  font-color: #fff;
+  letter-spacing: 0.1em;
+}
+
+.searchForm input
 {
   margin:10px 10px 10px 0;
   height: 30px;
