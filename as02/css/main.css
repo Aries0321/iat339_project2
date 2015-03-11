@@ -721,20 +721,25 @@ hr
 		width: 100%;
 		height: 30%;
 	}
+
 	.gallary{
-		width: 245%;
+		width: 100%;
 		text-align: left;
 	}
+
 	.gotoLeft
 	{
+		width: 80%;
 		margin-bottom: 0em;
-		margin-left: 1em;
+		margin-left: 3em;
 	}
+
 	#orateapotcol
 	{
 		width: 100%;
-		margin-right: 10em;
+		/*margin-right: 10em;*/
 	}
+
 	#addtobagBut
 	{
 		width:30%;
@@ -742,8 +747,8 @@ hr
 	}
 	.contentBox
 	{
-		width:100%;
-		margin-left: 1em;
+		width:80%;
+		margin-left: 3em;
 	}
 	.contentBox p
 	{
@@ -758,8 +763,23 @@ hr
 	#quantity
 	{
 		float: left;
-		margin-left: 25em;
+		text-align: right;
+		margin-left: 10em;
+		margin-right: 0;
 		margin-top: 2em;
+	}
+
+	.dropdownBox
+	{	
+		width: 70%;
+
+	}
+
+	#addtobagBut
+	{
+		margin-top: 5em;
+		margin-right: 4em;
+		margin-bottom: 3em;
 	}
 }
 
@@ -775,7 +795,7 @@ hr
 		margin-left: 0.7em;
 	}
 	.contentBox{
-		width:100%;
+		width:90%;
 		margin-left: 1em;
 	}
 	.inlineBox
@@ -784,13 +804,14 @@ hr
 	}
 	#addtobagBut
 	{
+		width: 40%;
 		margin-right: 4em;
 	}
 	#priceFont
-{
+	{
 	margin-top: 1.8em;
 	font-size: 0.9em;
-}
+	}
 }
 
 /*********** END PRODUCT PAGE ***********/
