@@ -5,10 +5,11 @@
     <title>Touch of Modern Style Guide</title>
     <link href="css/main.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
+    <div class = "wrapper">
   <div class="navDiv">
     <nav>
       <p>Go to:</p>
@@ -22,15 +23,17 @@
    </div>
   <div class="main">
     <div id="pads">
-    <h1>Touch of Modern Style Guide </h1>
-    <p>IAT339 Assignment 2 Aries Li Samuel Wisjnu</p>
+      <div class="title">
+        <h1>TOUCH OF MODERN STYLEGUIDE </h1>
+    </div>
+      <p>IAT339 Assignment 2 Aries Li Samuel Wisjnu</p>
   </div>
     
   <!-- buttons -->
   <div id= "pads">
   <section id="buttons">
     <div class="divSections">
-      <h2>Default Button Style</h2>
+      <h2>DEFAULT BUTTON STYLE</h2>
       <h3>CSS selector:</h3>
         <p>'a.button'</p>
       <h3>Sample code:</h3>
@@ -39,7 +42,7 @@
         <a class="button" href="#">DEFAULT BUTTON</a>  
     </div>
     <div class="divSections">  
-        <h2>Default Dropdown Button Style </h2>
+        <h2>DEFAULT DROPDOWN BUTTON STYLE </h2>
           <h3>CSS selector:</h3>
             <p>'.selectQty select'</p>
           <h3>Sample code:</h3>
@@ -67,28 +70,51 @@
 
     <div class="divSections">  
       <div id = "pads">
-        <h2>Default Image Button Style </h2>
+        <h2>DEFAULT IMAGE BUTTON STYLE </h2>
           <h3>CSS selector:</h3>
-            <p>'.imgBut'</p>
+            <p>'.box5img, .box, .box1Line, .box (p,h3)'</p>
           <h3>Sample code:</h3>
-          <code>&lt;a href=""&gt;&lt;div class="imgBut"&gt;
-        &lt;div class="imgText"&gt;Stylo &lt;/div&gt;&lt;/div&gt;&lt;/a&gt;</code>
+          <code>
+            &lt;a id = "box-Link" href="product.html"&gt;
+            <br/>&lt;div class="col-1of4"&gt;
+            <br/>&lt;div class="box box5Img"&gt;
+            <br/>&lt;div class = "bgBoxDescription"&gt;
+            <br/>&lt;div class ="box1Line"&gt;
+            <br/>&lt;h3&gt;CRANE LIGHT&lt;/h3&gt;
+            <br/>&lt;p&gt; Swinging sconce pivots 180º with a cord tension cantilevered design. The light can be installed at any height by simply feeding the cable through the pivoting rod.&lt;/p&gt;
+            <br/>&lt;/div&gt;
+            <br/>&lt;/div&gt;
+            <br/>&lt;/div&gt;
+            <br/>&lt;/div&gt;
+            <br/>&lt;/a&gt;
+          </code>
 
       <h3>Rendered element:</h3>
-        <a href="">
-          <div class="img1 imgZoom">
-            <div class="imgText">
-              <p>Style</p>
-            </div>
-          </div>
-          <div class="img1 imgZoom">
-            <div class="imgText">
-              <p>Style</p>
+        <a id = "box-Link" href="product.html">
+          <div class="col-1of4">
+            <div class="box box5Img">
+              <div class = "bgBoxDescription">
+                <div class ="box1Line">
+                  <h3>CRANE LIGHT</h3>
+                  <p> Swinging sconce pivots 180º with a cord tension cantilevered design. The light can be installed at any height by simply feeding the cable through the pivoting rod.</p>
+                </div>
+              </div>
             </div>
           </div>
         </a>
-      </div>
-    </div>
+          <a id = "box-Link" href="product.html">
+          <div class="col-1of4">
+            <div class="box box5Img">
+              <div class = "bgBoxDescription">
+                <div class ="box1Line">
+                  <h3>CRANE LIGHT</h3>
+                  <p> Swinging sconce pivots 180º with a cord tension cantilevered design. The light can be installed at any height by simply feeding the cable through the pivoting rod.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
     </section>
 
 
@@ -96,7 +122,7 @@
     <section id="type">
       <div class = "divSections">
         <div id ="pads">
-      <h2>Default Type Style</h2>
+      <h2>DEFAULT TYPE STYLE</h2>
         <p> This is the body font for the website (Open Sans)</p>
         <h2>Section Header</h2>
         <h3>CSS selector:</h3>
@@ -116,8 +142,8 @@
           <h3>Sample code:</h3>
             <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
           <h3>Rendered element:</h3>
-          <p>Size 15 Body Font:<br/>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          <p>Size 13 body font for main page:</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
       </div>
     </section>
@@ -128,7 +154,7 @@
       <div class = "divSections">
         <div id = "pads">
           <div id = "padsBot">
-            <h2>Default Colour Style</h2>
+            <h2>DEFAULT COLOUR STYLE</h2>
             <p> Colours to be used for both text and assets</p>
               <div class = "shape">
                 <div id="squareBlk"><p>#111111</p></div>
@@ -163,63 +189,56 @@
     <div id ="pads">
     <section id="nav">
        <div class = "divSections">
-      <h2>Default Navigation Style</h2>
+      <h2>DEFAULT NAVIGATION STYLE</h2>
         <h3>CSS selector:</h3>
-          <p>'.navSite ul,.navSite a'</p>
+          <p>'nav, nav (a,ul,li,p),.footer,.footer p'</p>
           <h3>Sample code:</h3>
           <code>
-            &lt;div class="navSite"&gt;<br/>
+            &lt;div class="col-nav"&gt;<br/>
+            &lt;div class="nav" id="hideMainNav"&gt;<br/>
             &lt;ul&gt;<br/>
-            &lt;li&gt;
-            &lt;a href="#home"&gt;
-            Home&lt;/a&gt;
-            &lt;/li&gt;<br/>
-            &lt;li&gt;
-            &lt;a href="#gadgets"&gt;
-            Gadgets&lt;/a&gt;
-            &lt;/li&gt;<br/>
-            &lt;li&gt;
-            &lt;a href="#tech"&gt;
-            Technology&lt;/a&gt;
-            &lt;/li&gt;<br/>
-            &lt;li&gt;
-            &lt;a href="#apparel"&gt;
-            Apparel&lt;/a&gt;
-            &lt;&lt;/li&gt;<br/>
-            &lt;li&gt;
-            &lt;a href="#about"&gt;
-            About&lt;/a&gt;
-            &lt;/li&gt;<br/>
-            &lt;li&gt;
-            <!--&lt;a href="#contact"&gt;
-            Contact Us&lt;/a&gt;
-            &lt;/li&gt;<br/> 
-            &lt;/ul&gt;<br/>
-            &lt;/div&gt;-->
+            &lt;li&gt;&lt;p&gt;&lt;a href="index2.html" id="active">HOME&lt;/p&gt;&lt;/a&gt;&lt;/li&gt;<br/>
+            &lt;li>&lt;p&gt;&lt;a href="gadgets.html">GADGETS&lt;/p&gt;&lt;/a&gt;&lt;/li&gt;<br/>
+            &lt;li&gt;&lt;p&gt;&lt;a href="technology.html"&gt;TECHNOLOGY&lt;/p&gt;&lt;/a&gt;&lt;/li&gt;<br/>
+            &lt;li&gt;&lt;p&gt;&lt;a href="apparel.html"&gt;APPAREL&lt;/p&gt;&lt;/a&gt;&lt;/li&gt;<br/>
+            &lt;li&gt;&lt;hr&gt;&lt;/li&gt;<br/>
+            &lt;li class="about"&gt;&lt;p>ABOUT COMPANY&lt;/p&gt;&lt;/li&gt;<br/>
+            &lt;li class="about"&gt;<br/>
+            &lt;p&gt;about text
+            &lt;/p&gt;<br/>
+            &lt;/li&gt;<br/>     
+            &lt;li class="footer"&gt;&lt;p&gt; © Touch of Modern, TouchOfModern Inc.&lt;/p&gt;&lt;/li&gt;<br/>
+            &lt;/div&gt;<br/>
+            &lt;/div&gt;<br/>
           </code>
         </div>
       
         <h3>Rendered Elements:</h3>
-          <div id="navSite">
-            <ul>
-              <li><a href="#home">TOUCH OF MODERN</a></li>
-              <li><a href="#gadgets">GADGETS</a></li>
-              <li><a href="#tech">TECHNOLOGY</a></li>
-              <li><a href="#apparel">APPAREL</a></li>
-              <li><a href="#about">ABOUT</a></li>
-              <!--<li><a href="#contact">Contact Us</a></li>-->
-            </ul>
-          </div>
-        </div>
-        <div class="divSections">
+          <div class="col-nav">
+      <div class="nav" id="hideMainNav">
+        <ul>
+          <li><p><a href="index2.html" id="active">HOME</p></a></li>
+          <li><p><a href="gadgets.html">GADGETS</p></a></li>
+          <li><p><a href="technology.html">TECHNOLOGY</p></a></li>
+          <li><p><a href="apparel.html">APPAREL</p></a></li>
+          <li><hr></li>
+          <li class="about"><p>ABOUT COMPANY</p></li>
+          <li class="about">
+            <p> about about about about about about about about
+            </p>
+          </li>
+
+          <li class="footer"><p> © Touch of Modern, TouchOfModern Inc.</p></li>
       </div>
+    </div>
+        
     </section>
 
       <!-- forms -->
       <section id="forms">
          <div class = "divSections">
           <div id ="pads">
-        <h2>Default Form Style</h2>
+        <h2>DEFAULT FORM STYLE</h2>
           <h3>CSS selector:</h3>
             <p>'.logSignForm input'</p>
           <h3>Sample code:</h3>
@@ -231,8 +250,60 @@
           <div class="searchForm">
               <input type="text" name="username" value="" placeholder=" search"/>
           </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section id="grid">
+         <div class = "divSections">
+          <div id ="pads">
+        <h2>DEFAULT GRID STYLE</h2>
+          <h3>CSS selector:</h3>
+            <p>'.col-(1/2/3,4)of4, col-nav',col-header</p>
+          <h3>Sample code:</h3>
+            <code>
+              &lt;div class="col-nav"&gt;<br/>
+              &lt;content&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="col-header"&gt;<br/>
+              &lt;content&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="col-1of4"&gt;<br/>
+              &lt;content&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="col-2of4"&gt;<br/>
+              &lt;content&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="col-3of4"&gt;<br/>
+              &lt;content&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="col-4of4"&gt;<br/>
+              &lt;content&gt;<br/>
+              &lt;/div&gt;<br/>
+            </code>
+         <h3>Rendered Element:</h3>
+          <div class="col-header height" id="border">
+            <p>col-header</p>
+          </div>
+          <div class="col-nav height" id="border">
+            <p>col-nav</p>
+          </div>
+          <div class="col-1of4 height" id="border">
+            <p>col-1of4</p>
+          </div>
+          <div class="col-2of4 height" id="border">
+            <p>col-2of4</p>
+          </div>
+          <div class="col-3of4 height" id="border">
+            <p>col-3of4</p>
+          </div>
+          <div class="col-4of4 height" id="border">
+            <p>col-4of4</p>
+          </div>
       </div>
     </div>
+
     </section>
   </body>
 </html>

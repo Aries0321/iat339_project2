@@ -1,8 +1,8 @@
 body 
 {
   font-family: "Open Sans",sans-serif;
-  padding: 1rem;
   background-color:#fff;
+  line-height: 2em;
 }
 
 section 
@@ -13,22 +13,34 @@ section
   border-top: 1px solid #333;
 }
 
+a, a:visited
+{
+  text-decoration: none;
+  color:#000;
+  -webkit-transition: color 0.2s ease-out 0;
+    transition: color 0.2s ease-out 0;
+}
+
 h1
 {
   font-family: "Montserrat";
   font-size: 2em;
+  letter-spacing: 0.1em;
 }
 
 h2
 {
   font-family: "Montserrat";
-  font-size: 28px;
+  font-size: 22px;
+  letter-spacing: 0.1em;
 }
 
 h3
 {
+  font-weight: 400;
   font-family: "Montserrat";
-  font-size: 20;
+  font-size: 15px;
+  letter-spacing: 0.1em;
 }
 
 section h3 
@@ -38,7 +50,8 @@ section h3
 
 p
 {
-  font-size:15;
+  font-size:13px;
+  line-height: 18px;
 }
 
 section p 
@@ -49,7 +62,25 @@ section p
 section code 
 {
   background-color: #EEE;
-  padding: 0.5em 0.75em;
+  padding: 0.5em;
+}
+
+ul, ol, li
+{
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+hr
+{
+  margin:2em 1em 2em 1.5em;
+  width:70%;
+}
+
+code
+{
+  line-height: 0.1em;
 }
 
 .selectQty select 
@@ -60,49 +91,74 @@ section code
   background-color: #fff;
 }
 
-.img1
+.box5Img
 {
   display: inline-block;
-  background-image: url(http://www.carsshow.net/wallpapers/2013/05/2011-BMW-3er-F30-modern-line-6-854x960.jpg);
+  background-image: url(http://www.sfu.ca/~zla52/asset/uncropped/Crane-Ligth-Black.jpg);
 }
 
-.imgZoom
+.box
 {
-  width:360px;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  display: inline-block;
-  transition: all 0.2s ease-in;
+  color: #f8f9f9;
+  width: 100%;
+  display: block;
+  height: auto;
+  z-index: 1;
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    text-align: left;
+
 }
 
-.imgZoom:hover {
-  background-size: 103% 103%;
+.box1Line {
+  padding-top: 1px;
+  z-index: 100;
+  line-height: 0.8em;
+}
+
+.box p {
+  font-size: 11px;
+  margin-top: 0.7em;
+  margin-left: 1.7em;
+  font-weight: 300;
+  margin-right: 5em;
+  line-height: 1.1em;
+  letter-spacing: 0.5px;
+}
+
+.box h3
+{
+  margin-left: 1em;
+  margin-bottom: 0;
+}
+
+.box:hover
+{
+ /* background-size: 102% 120%;*/
   cursor: pointer;
+  color: #292B2E;
 }
 
-.imgText:hover
+.bgBoxDescription
 {
-  opacity: 0.5;
-  background-color: #000;
-}
-
-.imgText{
-  opacity: 0;
-  font-size: 15px;
-  padding: 100px;
-  color: #fff;
-  text-align: center;
-  width:160px;
-  height:100px;
-  transition: all 0.2s ease-in;
+  margin-top: 260px;
+  background-image: 
+    linear-gradient(
+      rgba(41, 43, 45, 0.3),
+      rgba(41, 43, 45, 0.3)
+    ), url();
+  height: 100px;
 }
 
 a.button 
 {
   font-weight: 700;
   display: inline-block;
-  padding: 0.4em 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   color: #5D5E5E;
   background-color: none;
   text-decoration: none;
@@ -131,7 +187,7 @@ a.button:hover, a.button:focus
 
 .main, .navDiv, .typeDiv, .butDiv
 {
-  margin: 0 2% 2% 0;
+  
   float: left;
   display: block;
   height: 150px;
@@ -143,9 +199,14 @@ a.button:hover, a.button:focus
   width:81%;
 }
 
+.title
+{
+  letter-spacing: 0.3em;
+}
+
 .navDiv
 {
-  width:15%;
+  width:175px;
 }
 
 .typeDiv
@@ -160,9 +221,9 @@ nav
   top:0;
   left:0;
   background-color: #EEEEEE;
-  width: 10%;
+  width: 175px;
   height: 100%;
-  padding: 25px 15px 12px 80px;
+  padding-left: 1em;
   line-height: 2em;
   font-weight: 600;
   font-size: 0.9em;
@@ -174,16 +235,24 @@ nav a:hover, nav a:focus
   color: #5D5E5E;
 }
 
+.nav li.about p
+{
+  font-size:10px;
+  margin-right: 2em;
+  margin-left: 2.5em;
+  letter-spacing: 0.5px;
+}
+
+.wrapper
+{
+  margin-left: 1em;
+}
+
 #pads{
-  padding-left: 20px;
   padding-bottom: 20px;
 }
 
-.divSections
-{
-  /**clear: both;**/
-  width: 100%;
-}
+
 
 
 #squareBlk 
@@ -285,41 +354,44 @@ nav a:hover, nav a:focus
   color: #000;
 }
 
-.navSite
-
+.nav
 {
-  float:left;
-  display: block;
-  background-color: #EEEEEE;
-  width: 10%;
-  height: 10%;
-  padding: 0px 20px 0px 20px;
-  text-align: center;
+  padding-top: 1em;
+  margin-top: 1em;
+  text-align: left;
 }
 
-#navSite ul
+.nav ul
 {
-  list-style-type: none;
+  margin-top: 2em;
   margin: 0;
-  padding: 0;
-  color: #000;
-  line-height: 2.5em;
 }
-#navSite a 
+
+.nav a
 {
+  margin-left: 2em;
   display: block;
-  width: 200px;
-  color: #173B66;
+  left:0;
+  height:100%;
+  line-height: 2em;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 
-#navSite a:hover, #navSite a:focus
-{
-  color: #173B66;
+.footer {
+  color: #f8f9f9;
+  background-color: #222222;
+  width: 187px; 
+  height: 40px;
 }
 
-#navSite p
+.footer p
 {
-  padding-left: 20px;
+  padding-top:1em;
+  font-size: 9px;
+  line-height: 1em;
+  letter-spacing: 0.5px;
+  margin-left: 3em;
 }
 
 
@@ -348,5 +420,54 @@ nav a:hover, nav a:focus
   border-radius: 2px;
   font-color: #fff;
   letter-spacing: 0.1em;
+}
+
+[class^='col-']  {
+
+  padding: 0;
+  background-color: #E9E9E9;
+}
+
+.col-header {
+  width:100%;
+  display: inline-block;
+}
+
+.col-nav {
+  display: inline-block;
+    width:187px;
+}
+
+.col-1of4 {
+  display:inline-block;
+  width: 33.3333%;
+
+}
+
+.height
+{
+  height:50px;
+}
+
+.col-2of4 {
+  display:inline-block;
+  width: 66.6666%;
+}
+
+.col-3of4 {
+
+  width:87%;
+  display:inline-block;
+} 
+
+.col-4of4 {
+  width:100%;
+  display:inline-block;
+
+}
+
+#border
+{
+  border: solid 1px black;
 }
 
