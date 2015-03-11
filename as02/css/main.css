@@ -784,6 +784,10 @@ hr
 }
 
 @media (max-width: 45em){
+	.gallary
+	{
+		margin-left: 1em;
+	}
 	.gotoLeft
 	{
 		margin-bottom: 0em;
