@@ -20,6 +20,8 @@
   	padding: 0;
   	height:100%;
   	position: fixed;
+    
+
 
 }
 
@@ -115,6 +117,7 @@
   width: 33.3333%;
 	padding: 0px;
 	margin: 0px;
+  
 	/*border: solid #000 1px;*/
 
 }

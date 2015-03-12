@@ -332,6 +332,43 @@ hr
 	background-image: url(https://touchofmodern.insnw.net/products/000/110/728/e023541487f3b5c8059b7f97368efc8a_medium.jpg?1408139131);
 }
 
+.box1appImg
+{
+	display: inline-block;
+	background-image: url(https://touchofmodern.insnw.net/sales/000/009/094/3a74e9ec37389407b056c501e45029fc_medium_half.jpg?1426034891);
+}
+
+.box2appImg
+{
+	display: inline-block;
+	background-image: url(https://touchofmodern.insnw.net/products/000/191/087/front-sole-sock-women_medium.jpg?1426024669);
+}
+
+.box3appImg
+{
+	display: inline-block;
+	background-image: url(https://photos3.touchofmodern.com/sales/8799/photo?size=medium_half);
+}
+
+.box4appImg
+{
+	display: inline-block;
+	background-image: url(https://touchofmodern.insnw.net/sales/000/009/079/ca7283f8067fd4588520532da67c7bee_medium_half.jpg?1426029118);
+}
+
+.box5appImg
+{
+	display: inline-block;
+	background-image: url(https://photos.touchofmodern.com/sales/8772/photo?size=medium_half);
+}
+
+.box6appImg
+{
+	display: inline-block;
+	background-image: url(https://photos.touchofmodern.com/sales/8725/photo?size=medium_half);
+}
+
+
 .box
 {
 	color: #f8f9f9;
@@ -440,7 +477,7 @@ hr
 #inFrameh2{
 
 	margin-left: 3px;
-	margin-top: 2px;
+	margin-top: 0px;
 	margin-bottom: 0;
 	font-size: 1.6em;
 	line-height: 1em;
@@ -452,7 +489,7 @@ hr
 #inFrameh2Yellow{
 
 	margin-left: 3px;
-	margin-top: 2px;
+	margin-top: 0px;
 	margin-bottom: 0;
 	font-size: 1.6em;
 	line-height: 1em;
@@ -464,7 +501,7 @@ hr
 #inFrameh2Black{
 
 	margin-left: 3px;
-	margin-top: 2px;
+	margin-top: 0px;
 	margin-bottom: 0;
 	font-size: 1.6em;
 	line-height: 1em;
@@ -476,7 +513,7 @@ hr
 #inFrameh2White{
 
 	margin-left: 3px;
-	margin-top: 2px;
+	margin-top: 0px;
 	margin-bottom: 0;
 	font-size: 1.6em;
 	line-height: 1em;
@@ -561,24 +598,18 @@ hr
 	display: inline-block;
 	width: 100%;
 	height: 30em;
+	margin-right: 
 	/*border: solid #E9E9E9 1.5px;*/
-}
-
-@media (max-width: 65em){
-
-	.gallaryFixed {
-		width: 100%;
-	}
 }
 
 .gallary
 {	
-	width: 100%;
-	height: auto;
+	width: 107.2%;
+	height: 80%;
 	/*border: solid #E9E9E9 1.5px;*/
 	display: inline-block;
-
-
+	  margin-left: -1.85em;
+	
 }
 .gallaryFixed img
 {
@@ -588,10 +619,10 @@ hr
 
 .gallary img
 {
-	width: 20%;
+	width: 23%;
 	height: auto;
-	margin-top: 1.5em;
-	margin-right: 1em;
+/*	margin-top: 1.5em;
+	margin-right: 1em;*/
 	display: inline-block;
 }
 
@@ -695,7 +726,7 @@ hr
 {
 	margin-top: 2.4em;
 	margin-left: 0;
-	margin-right: 2em;
+	margin-right: 13%;
 	width: 50%;
 }
 
@@ -732,7 +763,16 @@ hr
 
 	.gallary{
 		width: 100%;
-		text-align: left;
+		margin-right: -1.95em;
+	}
+
+	.gallary img
+	{
+	width: 24.65%;
+	height: auto;
+/*	margin-top: 1.5em;
+	margin-right: 1em;*/
+	display: inline-block;
 	}
 
 	.gotoLeft
@@ -751,7 +791,7 @@ hr
 	#addtobagBut
 	{
 		width:30%;
-		margin-right: 4em;
+		
 	}
 	.contentBox
 	{
@@ -766,11 +806,10 @@ hr
 	#productdropdown
 	{
 		float: right;
-		margin-right: 5em;
+		/*margin-right: 5em;*/
 	}
 	#quantity
 	{
-		float: left;
 		text-align: right;
 		margin-left: 10em;
 		margin-right: 0;
@@ -785,16 +824,33 @@ hr
 
 	#addtobagBut
 	{
-		margin-top: 5em;
-		margin-right: 4em;
+		margin-right: 0px;
 		margin-bottom: 3em;
 	}
 }
 
+@media (max-width: 55em){
+	.gallary
+	{
+		width:90%;
+	}
+	.gallary img
+	{
+		width:24%;
+	}
+	#addtobagBut
+	{
+		margin-right: 0px;
+		margin-bottom: 3em;
+	}
+}
+
+	
+
 @media (max-width: 45em){
 	.gallary
 	{
-		margin-left: 1em;
+		
 	}
 	.gotoLeft
 	{
@@ -817,7 +873,7 @@ hr
 	#addtobagBut
 	{
 		width: 40%;
-		margin-right: 4em;
+		margin-right: 0em;
 	}
 	#priceFont
 	{
